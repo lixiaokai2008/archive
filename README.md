@@ -4,15 +4,15 @@ Archive - tool for those who works with many popular archive formats (rar, zip a
 # Installation
 ## Linux
 If you want install that program for current directory only:
-    ```
-    wget -O archive https://github.com/wapmorgan/archive/raw/master/archive.php && chmod +x archive
-    ```
+```
+wget -O archive https://github.com/wapmorgan/archive/raw/master/archive.php && chmod +x archive
+```
 
 If you want install that program for all system (run as root):
-    ```
-    wget -O archive https://github.com/wapmorgan/archive/raw/master/archive.php && chmod +x archive
-    mv archive /usr/local/bin
-    ```
+```
+wget -O archive https://github.com/wapmorgan/archive/raw/master/archive.php && chmod +x archive
+mv archive /usr/local/bin
+```
 
 ## Windows
 
