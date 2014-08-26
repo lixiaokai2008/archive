@@ -19,17 +19,22 @@ mv archive /usr/local/bin
 
 # Usage
 Usage is pretty simple:
-    `archive [archive] {action} FILES... [--listFormat=] [--extractDir=]`
+
+`archive [archive] {action} FILES... [--listFormat=] [--extractDir=]`
+
 ACTIONS
+
   **index**
    You can get the list of files stored in archive. By passing `--listFormat`
     option you can specify output format. It has syntax similar to sprintf()
     format. The main improvement is you can specify placeholders like this:
     @placeholder%format where placeholder is an identificator of property for
     array entry. Standart listFormat: '@name%40s | @size%d | @time%s'.
+
   **extract**
    Extract archive files to dir. By passing `--extractDir` option you can
     specify output directory.
+
   **print FILES...**
    Print the files contents to standard output. Useful for on-the-fly
     searching.
