@@ -1,5 +1,5 @@
 # Archive
-Archive - tool for those who works with many popular archive formats (rar, zip and tar) a lot and want to avoid using different tools from command line.
+Archive - tool for those who work with many popular archive formats (rar, zip and tar) a lot and want to avoid using different tools from command line.
 
 # Installation
 ## Linux
@@ -15,7 +15,12 @@ mv archive /usr/local/bin
 ```
 
 ## Windows
-
+1. Manually download [archive.bat](https://github.com/wapmorgan/archive/blob/master/archive.bat) and [archive.php](https://github.com/wapmorgan/archive/blob/master/archive.php).
+2. Move to system folder like (C:\Windows).
+3. Run it from any folder like
+```
+archive
+```
 
 # Usage
 Usage is pretty simple:
