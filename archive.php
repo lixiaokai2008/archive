@@ -1,5 +1,8 @@
 #!/usr/bin/php
 <?php
+/**
+ * @author wapmorgan (wapmorgan@gmail.com)
+ */
 namespace archive;
 function GETTER_FOR($property) { return 'get'.$property; }
 
